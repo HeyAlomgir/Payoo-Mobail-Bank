@@ -19,3 +19,19 @@ function getBalance(){
     const balanceElemnet = document.getElementById("balance");
     balanceElemnet.innerText=value;
  }
+
+
+//  machin id > hide all > show id
+
+function showOnly (id) {
+    const addmoney = document.getElementById("add-money");
+    const cashout = document.getElementById("Cashout")
+
+    // shobai ke hide kore dilam
+    addmoney.classList.add("hidden");
+    cashout.classList.add("hidden");
+
+    // id wala element ta ke tumi show korau
+    const selected = document.getElementById(id);
+    selected.classList.remove("hidden")
+}

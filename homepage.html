@@ -66,11 +66,11 @@
 
 
     <div class="grid grid-cols-3 gap-3">
-        <button class="btn flex-col h-full p-4 btn-primary btn-soft">
+        <button onclick="showOnly('add-money')" class="btn flex-col h-full p-4 btn-primary btn-soft">
             <img src="./assets/opt-1.png" alt="">
             <p>Add Money</p>
         </button>
-        <button class="btn flex-col h-full p-4 btn-primary btn-soft">
+        <button onclick="showOnly('Cashout')" class="btn flex-col h-full p-4 btn-primary btn-soft">
             <img src="./assets/opt-1.png" alt="">
             <p>Cashout</p>
         </button>
@@ -136,9 +136,10 @@
 </section>
 <!-- Add Money section end -->
 
+
 <!-- cashout section start -->
 
-<section id="Cashout" class="w-11/12 mx-auto py-5" hidden >
+<section id="Cashout" class="w-11/12 mx-auto py-5 hidden" >
     <h2 class="text-xl  font-bold mb-5">Cashout</h2>
 
      <div class="card bg-base-100 w-full max-w-full shadow rounded-2xl" >
